@@ -1,0 +1,67 @@
+Model: MMC S0J38Y (sd/mmc)
+Disk /dev/block/mmcblk0: 62.5GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End     Size    File system  Name               Flags
+ 1      524kB   786kB   262kB                vrl                msftdata
+ 2      786kB   1049kB  262kB                vrl_backup         msftdata
+ 3      1049kB  1311kB  262kB                fw_lpm3            msftdata
+ 4      1311kB  2097kB  786kB                frp                msftdata
+ 5      2097kB  6291kB  4194kB               fastboot           msftdata
+ 6      6291kB  10.5MB  4194kB               modemnvm_factory   msftdata
+ 7      10.5MB  16.8MB  6291kB               nvme               msftdata
+ 8      16.8MB  83.9MB  67.1MB               oeminfo            msftdata
+ 9      83.9MB  88.1MB  4194kB               reserved3          msftdata
+10      88.1MB  92.3MB  4194kB               modemnvm_backup    msftdata
+11      92.3MB  101MB   8389kB  ext4         modemnvm_img       msftdata
+12      101MB   105MB   4194kB               modemnvm_system    msftdata
+13      105MB   138MB   33.6MB  ext4         secure_storage     msftdata
+14      138MB   141MB   2097kB               reserved4          msftdata
+15      141MB   143MB   2097kB               reserved5          msftdata
+16      143MB   145MB   2097kB               persist            msftdata
+17      145MB   159MB   14.7MB  ext4         modem_secure       msftdata
+18      159MB   193MB   33.6MB  ext4         modem_om           msftdata
+19      193MB   260MB   67.1MB  ext4         splash2            msftdata
+20      260MB   262MB   2097kB               misc               msftdata
+21      262MB   287MB   25.2MB               modemnvm_update    msftdata
+22      287MB   336MB   48.2MB               reserved2          msftdata
+23      336MB   344MB   8389kB  ext4         preload            msftdata
+24      344MB   348MB   4194kB               teeos              msftdata
+25      348MB   350MB   2097kB               trustfirmware      msftdata
+26      350MB   367MB   16.8MB               sensorhub          msftdata
+27      367MB   380MB   12.6MB               fw_hifi            msftdata
+28      380MB   405MB   25.2MB               erecovery_kernel   msftdata
+29      405MB   438MB   33.6MB               erecovery_ramdisk  msftdata
+30      438MB   455MB   16.8MB               erecovery_vendor   msftdata
+31      455MB   480MB   25.2MB               kernel             msftdata
+32      480MB   493MB   12.6MB               eng_system         msftdata
+33      493MB   526MB   33.6MB               recovery_ramdisk   msftdata
+34      526MB   543MB   16.8MB               recovery_vendor    msftdata
+35      543MB   573MB   29.4MB               dts                msftdata
+36      573MB   577MB   4194kB               dto                msftdata
+37      577MB   677MB   101MB   ext4         modem_fw           msftdata
+38      677MB   678MB   1049kB               recovery_vbmeta    msftdata
+39      678MB   679MB   1049kB               erecovery_vbmeta   msftdata
+40      679MB   692MB   12.6MB               eng_vendor         msftdata
+41      692MB   709MB   16.8MB               dfx                msftdata
+42      709MB   713MB   4194kB               vbmeta             msftdata
+43      713MB   847MB   134MB   ext4         cache              msftdata
+44      847MB   981MB   134MB   ext4         odm                msftdata
+45      981MB   984MB   2097kB               hisitest0          msftdata
+46      984MB   986MB   2097kB               hisitest1          msftdata
+47      986MB   990MB   4194kB               hisitest2          msftdata
+48      990MB   1023MB  33.6MB  ext4         patch              msftdata
+49      1023MB  1026MB  2097kB               bootfail_info      msftdata
+50      1026MB  1042MB  16.8MB               rrecord            msftdata
+51      1042MB  1074MB  31.5MB               reserved9          msftdata
+52      1074MB  3498MB  2424MB  ext4         system             msftdata
+53      3498MB  4656MB  1158MB  ext4         preas              msftdata
+54      4656MB  4689MB  33.6MB  ext4         preavs             msftdata
+55      4689MB  4832MB  143MB   ext4         cust               msftdata
+56      4832MB  4865MB  33.6MB  ext4         version            msftdata
+57      4865MB  5478MB  612MB   ext4         vendor             msftdata
+58      5478MB  6040MB  562MB   ext4         product            msftdata
+59      6040MB  62.5GB  56.5GB               userdata           msftdata
+
