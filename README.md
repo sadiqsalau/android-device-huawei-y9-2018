@@ -6,7 +6,7 @@ This repository contains tools and method  to flash GSI images larger than the s
 
 This can be used with other Hisilicon Kirin 659 devices but with caution, resizing the partitions must match your device layout.
 
-Tools needed:
+### Tools needed
 1. ADB/fastboot - (Ensure driver is installed)
 
 2. `parted` and `mkfs.ext4` - `tools` folder 
@@ -25,7 +25,7 @@ Tools needed:
 
 Be ready to lose your personal data - (Music, Videos etc)
 
-Guide:
+### Guide
 
 1. Unlock bootloader with `PotatoNv`
 
@@ -47,7 +47,7 @@ Guide:
 
 
 
-Info:
+### Info
 1. Boot to fastboot - Switch off device, hold Volume Down and plug usb
 2. Boot to recovery - Unplug and swith off device. Volume Up and Power Button 
 3. Boot to erecovery - Switch of device. Turn on device then press volume up for three seconds when prompted.
