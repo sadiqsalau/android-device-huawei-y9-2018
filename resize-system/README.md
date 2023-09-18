@@ -11,15 +11,15 @@ Android-8-Emui-8 = parted-resize-emui-8.sh
 Android-9-Emui-9 = parted-resize-emui-9.sh
 
 
-First push `parted` to `sbin` - Go to the `tools` folder
+First push `parted` and `mkfs.ext4` to `sbin` - Go to the `tools` folder
 
-
-
+Unmount all partitions in TWRP.
 
 Now Push script to `/tmp` - Replace `[name]` with the right script 
 
 ```bash
 adb push [name] /tmp
+adb shell "chmod 777 /tmp/[name]"
 ```
 
 
